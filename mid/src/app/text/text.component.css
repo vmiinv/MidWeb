@@ -1,0 +1,72 @@
+body{
+  background-color: #ffd7ba;
+  align-content: normal;
+
+}
+aside {
+    width: 30%;
+
+    margin-right: 100px;
+    float: right;
+
+  }
+
+p {
+  font-size: 18px;
+  margin-left: 50px;
+  font-family: lexend;
+}
+
+h2 {
+  margin-left: 50px;
+  font-family: Roboto Black;
+  margin-top: 10px;
+}
+
+input {
+  height: 30px;
+}
+
+::placeholder {
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+button {
+  background-color: #fb8500;
+  color: white;
+  text-decoration: none;
+  margin: 4px 20px;
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  border: none;
+}
+
+.buttons {
+  padding-left: 200px;
+}
+
+input[type=button] {
+  background-color: #fb8500;
+  color: white;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  border: none;
+}
+
+div {
+  float: left;
+}
+
+.name {
+  font-size: 14px;
+  margin-left: 0px;
+}
+
+.info {
+  margin-left: 150px;
+}

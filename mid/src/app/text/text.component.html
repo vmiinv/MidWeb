@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CoffeE</title>
+</head>
+<body>
+
+<aside>
+  <app-profile [count]=Counter></app-profile>
+</aside>
+<h2>About Us</h2>
+<p>It happens millions of times each week - a guest gets their drink from a Starbucks barista - but each such moment is unique.</p>
+
+<p>Just one moment - when the barista reaches over the counter to pass the cup into the customer's outstretched hand.
+
+  But it is that moment when a connection is made between us and our guests.
+
+  And we strive to do everything we can to maintain that connection, from our commitment to selecting the highest quality coffee in the world to how we interact with guests and organizations to fulfill our commitments.
+
+  Ever since we started, ever since our first store opened almost forty years ago, wherever we go and wherever we touch, we've always tried to make it a little bit better than it was before us.
+
+  Translated with www.DeepL.com/Translator (free version)</p>
+
+
+    <div class="info">
+    <h4> Write some information about you </h4>
+
+    <p class="name">Name:</p>
+    <input type="text" name='name' placeholder="Name" size="30" [(ngModel)]='name'><br>
+
+    <p class="name">Last Name</p>
+    <input type="text" name="lastName" placeholder="Last Name" size="30" [(ngModel)]='lastName'><br>
+
+    <p class="name">Email address</p>
+    <input type="text" name="email" placeholder="Email" size="30" [(ngModel)]='email'><br><br>
+
+    <input type="button" value="Save" name="save" (click)='callParent()'>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+div {
+    background-color: #ffd7ba;
+    width: 200px;
+    height: 820px;
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+  font-family: lexend;
+  color: #fb8500;
+  }
+
+  li a {
+    width: 60px;
+    background-color: #ffd7ba;
+    color: black;
+    text-decoration: none;
+  }
+
+  img{
+    width: 200px;
+    length: 200px;
+  }
+
+  p{
+
+  }

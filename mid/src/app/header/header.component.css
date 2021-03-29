@@ -1,0 +1,52 @@
+
+.header {
+    overflow: hidden;
+    background-color: #ffd7ba;
+    padding: 20px 20px;
+    font-family: Roboto ;
+  }
+
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 10px;
+    border-radius: 4px;
+    font-family: Roboto ;
+  }
+
+
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ffd7ba;
+    color: black;
+    font-family: Roboto ;
+  }
+
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: #fb8500;
+    color: white;
+    font-family: Roboto ;
+  }
+
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }

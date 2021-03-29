@@ -1,0 +1,46 @@
+.body_sec {
+    height: 820px;
+    margin-top: 10px;
+    background-color: #ffd7ba;
+    width: 1080px;
+}
+h1 {
+  font-family: Hind, Abril Fatface, Rajdhani, serif;
+    font-size: 35px;
+}
+
+section {
+    text-align: center;
+}
+
+.styled-table thead tr {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+
+}
+h4{
+  margin-top: 40px;
+    margin-left: 400px;
+ }
+
+h2{
+  font-family: Roboto Black;
+}
+table {
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+th {
+    height: 50px;
+    padding-left: 10px;
+}
+
+td {
+    text-align: right;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
